@@ -1,6 +1,20 @@
 body{
     background-color: #f8ddd9;
 }
+
+.startClass{
+  align-items: center;
+  text-align: center;
+
+}
+#startButton{
+  
+  margin-left: 1%;
+}
+#howToPlay{
+  width:30%;
+  height:30%;
+}
 #buttons{
     display:flex;
     justify-content: center;

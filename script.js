@@ -3,6 +3,18 @@ const choices=['rock','paper','scissors'];
 let userChoice='';
 let computerChoice=choices[Math.floor(Math.random() * 3)];
 
+
+let root=document.getElementById("root");
+let buttons=document.getElementById("buttons");
+let startDiv=document.getElementById("startItems")
+root.style.display = "none";
+buttons.style.display = "none";
+function startGame() {
+    root.style.display = "block";
+    buttons.style.display = "flex";
+    startItems.style.display="none";
+}
+
 function userChoose(i){
     computerChoice=choices[Math.floor(Math.random() * 3)];
     userChoice=choices[i];
