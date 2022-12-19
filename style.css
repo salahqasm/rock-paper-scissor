@@ -7,6 +7,9 @@ body{
   text-align: center;
 
 }
+#result{
+ font-size: 200px;
+}
 #startButton{
   
   margin-left: 1%;
